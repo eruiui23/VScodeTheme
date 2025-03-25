@@ -7,7 +7,14 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#212121",
 		"sideBar": "#ffffffd6",
-		"statusBar.background":"#18181881"
+		"statusBar.background":"#18181881",
+		"focusBorder":"#262626",
+		"titleBar.activeBackground": "#262626",
+    	"titleBar.inactiveBackground": "#262626",
+    	"titleBar.border": "#262626",
+		"terminal.selectionBackground": "#D9D4B830",
+    	"terminalCursor.foreground": "#54f6d3",
+		
 	},
 	"tokenColors": [
 		{
@@ -18,7 +25,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f88f39"
+				"foreground": "#da6e15b9"
 			}
 		},
 		{
@@ -29,8 +36,8 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#5dffec",
-				"fontStyle": "bold"
+				"foreground": "#93e3cb",
+				// "fontStyle": "bold"
 			}
 		},
 		{
@@ -88,7 +95,7 @@
 			"scope": "keyword.operator.assignment",
 			"settings": {
 				"foreground": "#ffffff",
-				"fontStyle": "bold"
+				// "fontStyle": "bold"
 			}
 
 		},
@@ -113,7 +120,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#fffd82"
+				"foreground": "#e8e791"
 			}
 		},
 		{
@@ -148,7 +155,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#4081dd"
+				"foreground": "#75abf1"
 			}
 		},
 		{
@@ -163,7 +170,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#ee9042"
+				"foreground": "#d3915b"
 			}
 		},
 		{
@@ -179,7 +186,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#32f1e1"
+				"foreground": "#70ded5"
 			}
 		},
 		{
@@ -272,7 +279,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#fad287"
 			}
 		},
 		{
