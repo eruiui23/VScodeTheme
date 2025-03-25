@@ -1,0 +1,21 @@
+{
+  "name": "eruiui",
+  "displayName": "eruiui",
+  "description": "custom theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "eruiui",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eruiui-color-theme.json"
+      }
+    ]
+  }
+}
