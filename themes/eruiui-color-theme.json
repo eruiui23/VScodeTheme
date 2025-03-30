@@ -15,7 +15,8 @@
 		"terminal.selectionBackground": "#D9D4B830",
     	"terminalCursor.foreground": "#54f6d3",
 		"list.focusAndSelectionOutline":"#ffffff",
-		"list.focusOutline":"#2ce9d0"
+		"list.focusOutline":"#2ce9d0",
+		"statusBar.background":"#262626"
 		
 	},
 	"tokenColors": [
