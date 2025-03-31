@@ -2,8 +2,6 @@
     display: none !important;
 }
 
-/* .decorationsOverviewRuler */
-
 .slider {
     position: absolute !important;
     right: 1px !important;
@@ -11,47 +9,45 @@
     background: #363636 !important;
     left: auto !important;
     border-radius: 25px;
+    display: none !important;
     /* box-shadow: -10px 0px #212121 !important;*/
 }
 
-.scroll-decoration {
+.scroll-decoration,  .action-toolbar-container{
     box-shadow: none !important;
+    height: fit-content !important;
 }
 
-/* .part.sidebar{
-    box-shadow: -10px 0px #212121 !important;
-} */
+.tabs-container {
+    box-shadow: none !important;
+    /* height: 30px !important; */
+}
 
-.label-name,
-.title {
+.label-name, .title {
     font-family: "Cascadia Mono" !important;
 }
 
-.tab {
-    background-color: #262626 !important;
-    border-left: #ffffff;
-    border-right: #ffffff;
-
+.pane-header {
+    margin: 5px 5px 5px 5px !important; 
 }
 
-/* .selected {
-    background-color: #12c08379 !important;
+/* .tab {
+    position: absolute !important;
+    x: -50px !important;
 } */
 
-.tabs-container {
-    background-color: #262626 !important;
-}
 
-.pane-header {
+/* .pane-header {
     background-color: #212121 !important;
-}
+} */
+
+
 
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
     font-family: "Cascadia Mono", 'Geist Mono', monospace !important;
     font-size: 12px !important;
-    font-weight: 400 !important;
-    color: #ededed !important;
+    font-weight: 400 !important; 
 }
 
 .menubar-menu-title {
@@ -71,22 +67,22 @@ a.statusbar-item-label {
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
-    justify-items: center !important;
+    justify-items: center !important;    
+    /* display: none !important; */
 }
 
 .composite.title h2 {
     font-weight: bold !important;
-    font-family: "franklin gothic book" !important;
-    font-size: 12px !important;
-    text-transform: uppercase;
-    color: #ededed !important;
+    font-family: "Cascadia Mono" !important;
+    font-size: 13px !important;
+    text-transform: uppercase; 
     content: 'awowo' !important;
 }
 
 .composite.title h2::before {
     display: inline-block;
     margin-right: 6px;
-    font-size: 18px;
+    font-size: 13px;
     font-family: "BIZ UDGothic";
     content: '礼の';
 }
@@ -114,13 +110,9 @@ a.label-name {
     backdrop-filter: blur(3px) !important;
     /* border-radius: 10px !important; */
     /* width: 50% !important; */
+    color: #ffffff !important;
 
     /* ini test */
-}
-
-
-.monaco-scrollable-element {
-    border: #ffffff !important;
 }
 
 .watermark-box {
