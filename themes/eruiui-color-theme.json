@@ -19,6 +19,7 @@
 		"list.focusOutline":"#17c29d",
 		"statusBar.background":"#262626",
 		"tab.activeBackground":"#262626",
+		"tab.activeForeground":"#4dd4ae",
 		"tab.inactiveBackground" :"#262626",
 		"tab.border":"#262626",
 	    "editorGroupHeader.noTabsBackground":"#262626",
@@ -26,6 +27,12 @@
 		"panel.border":"#262626",
 		"panelTitle.border":"#262626",
 		"panelTitle.activeBorder": "#262626",
+		// "tab.unfocusedActiveBackground": "#262626",
+		// "tab.unfocusedInactiveBackground":"#262626",
+		"tab.unfocusedInactiveForeground":"#b2b2b2",
+		"tab.unfocusedActiveForeground":"#b2b2b2",
+		"editorCursor.foreground":"#17c29d",
+		
 	},
 	"tokenColors": [
 		{
@@ -57,7 +64,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#ededed"
 			}
 		},
 		{
@@ -467,7 +474,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#e0e8e8"
 			}
 		},
 		{

@@ -31,10 +31,11 @@
     margin: 5px 5px 5px 5px !important; 
 }
 
-/* .tab {
-    position: absolute !important;
-    x: -50px !important;
-} */
+.tab {
+    /* position: absolute !important;
+    x: -50px !important; */
+    /* border-radius: 15px !important; */
+}
 
 
 /* .pane-header {
@@ -77,14 +78,16 @@ a.statusbar-item-label {
     font-size: 13px !important;
     text-transform: uppercase; 
     content: 'awowo' !important;
+    color: #e0e0e0 !important;
 }
 
 .composite.title h2::before {
     display: inline-block;
     margin-right: 6px;
     font-size: 13px;
-    font-family: "BIZ UDGothic";
-    content: '礼の';
+    font-family: "Cascadia Mono" !important;
+    content: '230';
+    color: #4aceb4 !important;
 }
 
 a.label-name {
